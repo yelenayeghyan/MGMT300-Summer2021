@@ -1,8 +1,7 @@
 # MGMT300-Summer2021
 
-Course name: Quantitative Tools for Management (https://cbe.aua.am/course-description-2/)
-
-Program: Master of Science in Management
-University: American University of Armenia
-The following programs were used: EXCEL 2016 (or higher), Python 3.7, Jupyter Notebook, Tableau
-Lecturer: Parandzem Sargsyan
+<b>Course name:</b> Quantitative Tools for Management (https://cbe.aua.am/course-description-2/)<br>
+<b>Program:</b> Master of Science in Management<br>
+<b>University:</b> American University of Armenia<br>
+<b>The following programs were used:</b> EXCEL 2016 (or higher), Python 3.7, Jupyter Notebook, Tableau<br>
+<b>Lecturer:</b> Parandzem Sargsyan
