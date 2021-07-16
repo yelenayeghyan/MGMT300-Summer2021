@@ -1,0 +1,8 @@
+In this notebook the following main topics are covered:
+- **Defining functions**: salary calculatior, finding position of a word in text
+- **While loop**
+- **Multidimensional lists**
+- **Installing and importing libraries**
+- **Pandas**: creating, reading dataframe; doing data description and data transformation
+- **IMDB Top250 Movie Chart**
+- **Matplotlib and pandas basic charts**: bar plot, line plot, histogram
