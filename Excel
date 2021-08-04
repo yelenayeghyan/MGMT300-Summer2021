@@ -1,0 +1,27 @@
+#Calculate Mean, Mode, Median, Range and Standard deviation for retail price of all products by country and populate them in the respective table (cells K2:O10).
+Use named ranges to provide a specific/unique name for the Retail Price,  Mode, Median, Range and Std dev columns. 
+Use formulas to calculate by country measures, don't use filters.
+=AVERAGEIF($B$3:$B$56,"Germany",$D$3:$D$56)
+=MEDIAN(IF(Origin="Germany",RetailPrice))
+=MODE.SNGL(IF(Origin=[@Column10],RetailPrice))
+=MAX(IF(Origin=[@Column10],RetailPrice))-MIN(IF(Origin=[@Column10],RetailPrice))
+=STDEV.P(IF(Origin=[@Column10],RetailPrice))
+
+
+
+
+
+In the Order Length column, calculate how many days it will take for orders to be delivered by using Last Ordered and Order Arrived columns.
+=DAYS(F4,E4)
+
+
+Insert Table on the data in Task 2. Then from the right, add a new column with a name "Nickel", 
+in that column write a formula which will return "Yes" if word "nickel" and/or "Nickel" is found in "Item Description", otherwise the function should return "No".
+=IFERROR(IF(OR(SEARCH("Nickel",Itemdescription))=TRUE,"Yes","No"),"No")
+
+
+Use either VLOOKUP or INDEX&MATCH formulas to bring Last Ordered and Unit Cost  values from "Raw Data" sheet to "Task" sheet. Don't make any change in Raw Data sheet.
+=INDEX(Inventory[Last Ordered],MATCH([@[Product Code]],Inventory[Product Code],0))
+=VLOOKUP([@[Product Code]],Inventory[[#All],[Product Code]:[Unit Cost]],9,0)
+
+
